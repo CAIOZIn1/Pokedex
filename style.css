@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+body{
+    background: linear-gradient(to bottom, rgb(111, 215, 233), white);
+    min-height: 100vh;
+    text-align: center;
+}
+
+main{
+    display: inline-block;
+    padding-top: 5px;
+    padding: 15px;
+    position: relative;
+}
+
+.pokemon-data{
+    position: absolute;
+    top:55.5%;
+    left: 40%;
+}
+
+span.pokemon-number{
+    color: #818283;
+}
+
+h1 span{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: clamp(8px, 5vw, 25px);
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.imagem-pokemon{
+    position: absolute;
+    bottom: 55%;
+    left: 52%;
+    transform: translate(-63%, 20%);
+    height: 20%;
+}
+
+form input{
+    position: absolute;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}                    
+
