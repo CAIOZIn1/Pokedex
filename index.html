@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="shortcut icon" href="Imagens/favicon-32x32.png" type="image/x-icon">
+
+    <!-- links -->
+    <script defer src="scripts.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,19 +16,23 @@
 
     <main>
         <h1 class="pokemon-data">
-            <span class="pokemon-number">6-</span>
-            <span class="pokemon-name">charizard</span>
+            <span class="pokemon-number"></span>-
+            <span class="pokemon-name"></span>
         </h1>
 
-        <img src="" alt="pokemon-image" class="imagem-pokemon">
+        <img src="#" alt="pokemon-image" class="imagem-pokemon">
 
-        <form action="search">
-            <input type="search" name="pokemon" class="pokemon-especificado" required placeholder="Name or Number">
+        <form action="search" class="form">
+            <input type="search" name="pokemon" class="input__search" required placeholder="Name or Number">
         </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">&lt; prev</button>
+            <button class="button btn-next"> next &gt;</button>
+        </div>
 
         <img src="Imagens/pokedex.png" alt="pokedex_img" class="pokedex">
     
     </main>
 </body>
-<script src="scripts.js"></script>
 </html>
