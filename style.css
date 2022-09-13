@@ -95,6 +95,7 @@ form input:hover{
     box-shadow: -2px 3px 0 #222;
     cursor: pointer;
     transition: .5s all;
+    outline: none;
 }
 
 .button:hover{
